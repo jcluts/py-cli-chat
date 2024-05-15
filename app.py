@@ -68,7 +68,7 @@ def send_to_llm_api(messages, llm_config, api_key):
         "temperature": llm_config["llm_temperature"]
     })
 
-    print(f"Sending to LLM API: {data}")
+    # print(f"Sending to LLM API: {data}")
 
     response = requests.post(api_endpoint, headers=headers, data=data)
 
