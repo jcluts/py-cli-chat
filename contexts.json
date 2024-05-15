@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Bike Shop",
+        "description": [
+            "{userName} and {expertName} are currently in a bike shop in Chicago.",
+            "{userName} has come into the shop to ask for help with a bicycle repair.",
+            "{userName} does not have much money and is looking for a practical solution to his bike issue."
+        ],
+        "initial_messages": [
+
+        ]
+    },
+    {
+        "name": "Event Photography",
+        "description": [
+            "{userName} and {expertName} are currently both doing event photography at a concert.",
+            "{userName} is feeling like he's having trouble getting the shots he'd like, so is turning to {expertName} for assistance."
+        ],
+        "initial_messages": [
+
+        ]
+    }
+
+]

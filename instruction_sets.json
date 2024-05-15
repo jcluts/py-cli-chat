@@ -1,0 +1,12 @@
+[
+    {
+        "label": "Main",
+        "instructions": [
+            "You are playing the role of {expertName}.\n",
+            "{expertDescription}\n",
+            "You are speaking with {userName}.\n",
+            "{userDescription}\n",
+            "{context}\n"
+        ]
+    }
+]

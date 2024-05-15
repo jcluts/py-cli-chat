@@ -1,0 +1,51 @@
+[
+    {
+        "llm_endpoint": "https://openrouter.ai/api/v1/chat/completions",  
+        "llm_models": [
+            "cognitivecomputations/dolphin-mixtral-8x7b",
+            "mistralai/mixtral-8x7b-instruct",
+            "anthropic/claude-3-haiku:beta",
+            "anthropic/claude-3-haiku",
+            "openai/gpt-4-turbo-preview",
+            "nousresearch/nous-hermes-llama2-13b",
+            "meta-llama/llama-3-70b-instruct",
+            "meta-llama/llama-3-8b-instruct",
+            "mistralai/mixtral-8x22b-instruct"
+        ],
+        "llm_selected_model": 6,
+        "llm_api_key": 0,
+        "llm_max_tokens": 150,
+        "llm_temperature": 0.7,
+        "presence_penalty": 1.0,
+        "frequency_penalty": 1.0,
+        "repetition_penalty": 1.0
+    },
+    {
+        "llm_endpoint": "https://api.deepinfra.com/v1/openai/chat/completions",  
+        "llm_models": [
+          "DeepInfra/pygmalion-13b-4bit-128g",
+          "cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+          "mistralai/Mixtral-8x7B-Instruct-v0.1",
+          "lizpreciatior/lzlv_70b_fp16_hf",
+          "mistralai/Mistral-7B-Instruct-v0.2",
+          "meta-llama/Llama-2-70b-chat-hf"
+        ],
+        "llm_selected_model": 5,
+        "llm_api_key": 1,
+        "llm_max_tokens": 150,
+        "llm_temperature": 0.7
+        
+      },
+      {
+        "llm_endpoint": "https://api.openai.com/v1/chat/completions",  
+        "llm_models": [
+          "gpt-4o",
+          "gpt-4-turbo"
+        ],
+        "llm_selected_model": 0,
+        "llm_api_key": 2,
+        "llm_max_tokens": 350,
+        "llm_temperature": 1
+        
+      }
+]

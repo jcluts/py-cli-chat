@@ -1,0 +1,14 @@
+{ 
+    "llm_api": 2, 
+    "instruction_set": 0,
+    "user": 0,
+    "expert": 1,
+    "context": 1,
+    "history_length": 12,
+    "use_tts": false,
+    "tts_api_key": 3,
+    "tts_voices": [
+      {"name": "Marissa", "id": "StXdHzik5guDrDk6fg3m"},
+      {"name": "Mike", "id": "qwxPrWTsSy4Io4zDXiZb"}
+    ] 
+  }
