@@ -2,7 +2,7 @@
 # py-cli-chat
 
 ## Description
-The purpose of this project is to provide a quick and simple CLI for evaluating different LLM (Large Language Model) APIs and models, as well as exploring how various experts and users may interact in an LLM dialog.
+The purpose of this project is to provide a quick and simple CLI for evaluating different LLM (Large Language Model) APIs and models, as well as exploring how various experts and users may interact in an LLM dialog. It also includes a Text-to-Speech (TTS) feature powered by ElevenLabs.
 
 ## Installation
 1. Clone the repository:
@@ -26,13 +26,16 @@ The behavior of the chatbot is controlled by several JSON configuration files. T
 Create a file named `api_keys.json` in the root directory of the project. This file should contain your API keys. Below is an example structure for `api_keys.json`:
 
 ```json
-    [
-        {
-        "name": "API Name",
-        "key": "Your API Key"
-        }
-    ]
+[
+    {
+    "name": "API Name",
+    "key": "Your API Key"
+    }
+]
 ```
+
+## Text-to-Speech (TTS) Integration
+This project includes a TTS feature powered by ElevenLabs. The TTS feature allows the chatbot to read out the responses it generates. This feature can be enabled or disabled in the `config.json` file.
 
 ## Usage
 To start the application, run:
