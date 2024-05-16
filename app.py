@@ -114,6 +114,16 @@ def main():
         if user_input.lower() == "quit":
             print("Exiting chatbot.")
             break
+        elif user_input.lower() == "rb":
+            if len(message_history) >= 2:
+                message_history.pop()
+                message_history.pop()
+                print("\nThe last two messages have been removed.\n")
+                continue
+        elif user_input.lower() == "reset":
+            message_history.clear()
+            print("\nChat history has been reset.\n")
+            continue
         
         history_length = config["history_length"]
 
@@ -124,7 +134,7 @@ def main():
         
         response = send_to_llm_api(messages_to_send, llm_config, llm_api_key)
 
-        print(f"{expert['name']}: {response}")
+        print(f"\n{expert['name']}: {response}\n")
 
         if config.get("use_tts"):
             text_to_speech_elevenlabs(response, elevenlabs_api_key, elevenlabs_voice_id)
